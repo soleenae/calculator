@@ -48,7 +48,7 @@ jobs:
       # Step 5: Test with pytest
       - name: Test with pytest
         run: |
-          pytest /Downloads/calculator/tests/
+          pytest tests/
 
   trivy-scan:
     runs-on: ubuntu-latest
