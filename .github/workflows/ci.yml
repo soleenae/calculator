@@ -47,7 +47,7 @@ jobs:
       
       # Step 5: Test with pytest
       - name: Test with pytest
-        run: pytest tests/
+        run: pytest /home/runner/work/soleenae/calculator/tests/
 
   trivy-scan:
     runs-on: ubuntu-latest
